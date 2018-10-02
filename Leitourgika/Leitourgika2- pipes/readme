@@ -1,0 +1,26 @@
+Κ22: Λειτουργικά Συστήματα (Τμήμα Αρτίων Αριθμών Μητρώου)-Χειμερινό Εξάμηνο 2015
+Διδάσκων:Αλέξης Δελής
+
+Προγραμματιστική Άσκηση 2
+
+Name:	 Dimitris Nektarios Sideris
+A.M:	 1115201300158
+
+
+Για να δουλέψει η εργασία χρείαζεται να μπει ενα path για να δημιουργουνται σωστά τα pipes (sto record.h)
+Κατα προτίμηση το path καλύτερα να είναι για το φάκελο με το πρόγραμμα και να τελειώνει σε /myfi/myvote
+παραδειγμα
+#define     PIPEVOTE    "/home/dimitris/Desktop/DimitrisSideris-Proj2/myfi/myvote"	
+#define 	PIPECENT	"/home/dimitris/Desktop/DimitrisSideris-Proj2/myfi/mycenter"
+#define     PIPETIME    "/home/dimitris/Desktop/DimitrisSideris-Proj2/myfi/mytime" 
+
+
+compile command:	make
+RUN command: 	 ./tally -i x -o y -d 2 -p 50 -l 3 -c m
+
+-i = input file (binary)
+-o = output file 
+-d = depth
+-l = children 
+-p = percent
+-c = output file for percent

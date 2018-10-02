@@ -1,0 +1,21 @@
+Number of valid votes 18
+
+Choice 0 got 2 votes  and with percentage 2/18 = 0.111111 
+Choice 1 got 1 votes  and with percentage 1/18 = 0.055556 
+Choice 2 got 1 votes  and with percentage 1/18 = 0.055556 
+Choice 3 got 3 votes  and with percentage 3/18 = 0.166667 
+Choice 4 got 5 votes  and with percentage 5/18 = 0.277778 
+Choice 5 got 2 votes  and with percentage 2/18 = 0.111111 
+Choice 6 got 1 votes  and with percentage 1/18 = 0.055556 
+Choice 7 got 3 votes  and with percentage 3/18 = 0.166667 
+
+People that tried to vote multiple times:
+AM: 51707944   times tried: 3     last time tried: 1452951470
+AM: 54729967   times tried: 2     last time tried: 1452951470
+AM: 87517201   times tried: 2     last time tried: 1452951470
+AM: 90358837   times tried: 3     last time tried: 1452951470
+AM: 90853770   times tried: 3     last time tried: 1452951470
+AM: 96100288   times tried: 2     last time tried: 1452951470
+
+Sum of voters that tried to vote: 21
+Valid voters that voted multiple times: 6 InValid voters: 3 
