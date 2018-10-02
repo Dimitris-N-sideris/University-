@@ -1,0 +1,1726 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAFkZoYeVamybKc=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "ΔΡΔ Επιπεδο 1 Version 2",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAFkZoYeVamza6Y=",
+					"_parent": {
+						"$ref": "AAAAAAFkZoYeVamybKc="
+					},
+					"name": "ΔΡΔ Επιπεδο 1 Version 2",
+					"ownedViews": [
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAFk6vGcKLzWxWk=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"fillColor": "#a3e0ff",
+							"font": "Arial;13;0",
+							"left": 16,
+							"top": 24,
+							"width": 1057,
+							"height": 681
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAFkZoZZ3am5nLE=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZoZZ3Km3H/4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk8Dx22uos15s=",
+									"_parent": {
+										"$ref": "AAAAAAFkZoZZ3am5nLE="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 906,
+									"top": 285,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk7BWeZBRq8Ec=",
+									"_parent": {
+										"$ref": "AAAAAAFkZoZZ3am5nLE="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 906,
+									"top": 285,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk6ut3CLw10A4=",
+									"_parent": {
+										"$ref": "AAAAAAFkZoZZ3am5nLE="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 906,
+									"top": 285,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk6r0MzPcGsM0=",
+									"_parent": {
+										"$ref": "AAAAAAFkZoZZ3am5nLE="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 906,
+									"top": 285,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZoZZ36m/yTY=",
+									"_parent": {
+										"$ref": "AAAAAAFkZoZZ3am5nLE="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 906,
+									"top": 285,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZoZZ3am69L8=",
+									"_parent": {
+										"$ref": "AAAAAAFkZoZZ3am5nLE="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 906,
+									"top": 290,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "Πελάτης",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZoZZ3am7BM4=",
+									"_parent": {
+										"$ref": "AAAAAAFkZoZZ3am5nLE="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 744,
+									"top": 208,
+									"height": 13
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"left": 896,
+							"top": 280,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFkZoZZ3am69L8="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAFkZob5yKnFT4U=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZob5yKnDanc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZob5yKnGDtw=",
+									"_parent": {
+										"$ref": "AAAAAAFkZob5yKnFT4U="
+									},
+									"fillColor": "#ffff91",
+									"font": "Arial;13;0",
+									"left": 458,
+									"top": 280,
+									"width": 125,
+									"height": 26,
+									"text": "Διαχείριση Έκδοσης Εντολής Εργασίας",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZob5yanHGNI=",
+									"_parent": {
+										"$ref": "AAAAAAFkZob5yKnFT4U="
+									},
+									"fillColor": "#ffff91",
+									"font": "Arial;13;0",
+									"left": 458,
+									"top": 253,
+									"width": 125,
+									"height": 13,
+									"text": "1."
+								}
+							],
+							"fillColor": "#ffff91",
+							"font": "Arial;13;0",
+							"left": 448,
+							"top": 248,
+							"width": 145,
+							"height": 105,
+							"nameLabel": {
+								"$ref": "AAAAAAFkZob5yKnGDtw="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAFkZob5yanHGNI="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAFkZolUU6n3JGA=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZolUU6n1xGY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZolUVKn4MbM=",
+									"_parent": {
+										"$ref": "AAAAAAFkZolUU6n3JGA="
+									},
+									"fillColor": "#ffff91",
+									"font": "Arial;13;0",
+									"left": 450,
+									"top": 488,
+									"width": 141,
+									"height": 26,
+									"text": "Διαχείριση Εκδομένων Εντολών",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZolUVKn5Cgs=",
+									"_parent": {
+										"$ref": "AAAAAAFkZolUU6n3JGA="
+									},
+									"fillColor": "#ffff91",
+									"font": "Arial;13;0",
+									"left": 450,
+									"top": 461,
+									"width": 141,
+									"height": 13,
+									"text": "2."
+								}
+							],
+							"fillColor": "#ffff91",
+							"font": "Arial;13;0",
+							"left": 440,
+							"top": 456,
+							"width": 161,
+							"height": 97,
+							"nameLabel": {
+								"$ref": "AAAAAAFkZolUVKn4MbM="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAFkZolUVKn5Cgs="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFkZoqKHaoEzjI=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"fillColor": "#a3e0ff",
+							"font": "Arial;18;0",
+							"showShadow": false,
+							"left": 279,
+							"top": 48,
+							"width": 538,
+							"height": 48,
+							"text": "ΔΡΔ 0: Διαχείριση Εργασιών Επισκευών Φορητών Υπολογιστών"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFkZozReaode7E=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"font": "Arial;15;0",
+							"left": 424,
+							"top": 88,
+							"width": 201,
+							"height": 42,
+							"text": "Επίπεδο Αποσύνθεσης: 1"
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAFkZpGYK6o55QU=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZpGYKao3SNg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk8Dx23+pB3dE=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpGYK6o55QU="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 74,
+									"top": 469,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk7BWeZxR+CJQ=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpGYK6o55QU="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 74,
+									"top": 469,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk6ut3DLxIixs=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpGYK6o55QU="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 74,
+									"top": 469,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk6r0M0PcYWD0=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpGYK6o55QU="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 74,
+									"top": 469,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZpGYLao/eY4=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpGYK6o55QU="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 74,
+									"top": 469,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZpGYK6o620Q=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpGYK6o55QU="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 74,
+									"top": 474,
+									"width": 101,
+									"height": 13,
+									"text": "Τεχνικός",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZpGYK6o7WFY=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpGYK6o55QU="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": -112,
+									"top": -48,
+									"height": 13
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"left": 64,
+							"top": 464,
+							"width": 121,
+							"height": 57,
+							"nameLabel": {
+								"$ref": "AAAAAAFkZpGYK6o620Q="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZpHPKKpGpmE=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZpHPJ6pEO5s="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZpHPKKpHBTw=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpHPKKpGpmE="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZpHPJ6pEO5s="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 231,
+									"top": 447,
+									"width": 182,
+									"height": 26,
+									"alpha": 1.1071483177941706,
+									"distance": 22.360679774997898,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZpHPKKpGpmE="
+									},
+									"edgePosition": 1,
+									"text": "Στοιχεία Εκτελεσθέντων Εργασίων",
+									"wordWrap": true
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZolUU6n3JGA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZpGYK6o55QU="
+							},
+							"points": "184:480;440:480",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZpHPKKpHBTw="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAFkZpNpQapRD8U=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZpNpQKpPAuo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZpNpQapS+cc=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpNpQapRD8U="
+									},
+									"fillColor": "#a3ffa3",
+									"font": "Arial;13;0",
+									"left": 908,
+									"top": 498,
+									"width": 131,
+									"height": 26,
+									"text": "Αρχείο Εντολών Εργασιών",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZpNpQapThXc=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpNpQapRD8U="
+									},
+									"fillColor": "#a3ffa3",
+									"font": "Arial;13;0",
+									"left": 893,
+									"top": 498,
+									"height": 13
+								}
+							],
+							"fillColor": "#a3ffa3",
+							"font": "Arial;13;0",
+							"left": 888,
+							"top": 488,
+							"width": 161,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAFkZpNpQapS+cc="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAFkZpNpQapThXc="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZpTsd6qN4PQ=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZpTsd6qLJSE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZpTsd6qORWo=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpTsd6qN4PQ="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZpTsd6qLJSE="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 650,
+									"top": 487,
+									"width": 177.58203125,
+									"height": 13,
+									"alpha": -4.171970215408548,
+									"distance": 11.661903789690601,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZpTsd6qN4PQ="
+									},
+									"edgePosition": 1,
+									"text": "Ενημέρωση Εντολής Εργασίας"
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZpNpQapRD8U="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZolUU6n3JGA="
+							},
+							"lineStyle": 2,
+							"points": "600:504;888:504",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZpTsd6qORWo="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAFkZpYS+Kqd78Y=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZpYS+Kqbzbc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk8Dx26OpVYIY=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpYS+Kqd78Y="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 74,
+									"top": 269,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk7BWeaxSRjec=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpYS+Kqd78Y="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 74,
+									"top": 269,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk6ut3ELxaXEM=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpYS+Kqd78Y="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 74,
+									"top": 269,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk6r0M1fcpoCk=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpYS+Kqd78Y="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 74,
+									"top": 269,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZpYS+aqjtlA=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpYS+Kqd78Y="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 74,
+									"top": 269,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZpYS+Kqensg=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpYS+Kqd78Y="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 74,
+									"top": 274,
+									"width": 101,
+									"height": 26,
+									"text": "Εφαρμογή Diagnose",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZpYS+KqfpDY=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpYS+Kqd78Y="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": -872,
+									"top": 56,
+									"height": 13
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"left": 64,
+							"top": 264,
+							"width": 121,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAFkZpYS+Kqensg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZpYouqqpDqU=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZpYouKqn0v8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZpYouqqq5j0=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpYouqqpDqU="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZpYouKqn0v8="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 663,
+									"top": 272,
+									"width": 162.93798828125,
+									"height": 13,
+									"alpha": 1.570795771239341,
+									"distance": 18,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZpYouqqpDqU="
+									},
+									"edgePosition": 1,
+									"text": "Απόδειξη Εντολής Εργασίας"
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZoZZ3am5nLE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZob5yKnFT4U="
+							},
+							"points": "592:296;896:296",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZpYouqqq5j0="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZpa4Uqq1fJU=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZpa4UaqzDe4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZpa4Uqq2bpQ=",
+									"_parent": {
+										"$ref": "AAAAAAFkZpa4Uqq1fJU="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZpa4UaqzDe4="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 686,
+									"top": 327,
+									"width": 154.603515625,
+									"height": 13,
+									"alpha": -1.481292565236454,
+									"distance": 156.62694531912445,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZpa4Uqq1fJU="
+									},
+									"edgePosition": 1,
+									"text": "Στοιχεία Εντολής Εργασίας"
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZpNpQapRD8U="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZob5yKnFT4U="
+							},
+							"points": "592:320;920:320;920:488",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZpa4Uqq2bpQ="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAFkZqKo86ry9vQ=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZqKo86rwGz0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZqKo9KrzrB8=",
+									"_parent": {
+										"$ref": "AAAAAAFkZqKo86ry9vQ="
+									},
+									"fillColor": "#a3ffa3",
+									"font": "Arial;13;0",
+									"left": 452,
+									"top": 154,
+									"width": 131,
+									"height": 13,
+									"text": "Αρχείο Εγγυήσεων",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZqKo9Kr0kJM=",
+									"_parent": {
+										"$ref": "AAAAAAFkZqKo86ry9vQ="
+									},
+									"fillColor": "#a3ffa3",
+									"font": "Arial;13;0",
+									"left": 437,
+									"top": 154,
+									"height": 13
+								}
+							],
+							"fillColor": "#a3ffa3",
+							"font": "Arial;13;0",
+							"left": 432,
+							"top": 144,
+							"width": 161,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAFkZqKo9KrzrB8="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAFkZqKo9Kr0kJM="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZqTLfasjAKs=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZqTLfash4TE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZqTLfaskZz8=",
+									"_parent": {
+										"$ref": "AAAAAAFkZqTLfasjAKs="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZqTLfash4TE="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 255,
+									"top": 296,
+									"width": 88.8798828125,
+									"height": 13,
+									"alpha": 0.33929279906952603,
+									"distance": 18.027756377319946,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZqTLfasjAKs="
+									},
+									"edgePosition": 1,
+									"text": "Στοιχεία Laptop"
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZpYS+Kqd78Y="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZob5yKnFT4U="
+							},
+							"points": "448:296;184:296",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZqTLfaskZz8="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZtQOhKvOykg=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZtQOhKvMJXU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZtQOhKvPo9U=",
+									"_parent": {
+										"$ref": "AAAAAAFkZtQOhKvOykg="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZtQOhKvMJXU="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 247,
+									"top": 263,
+									"width": 124.53466796875,
+									"height": 13,
+									"alpha": -4.101663687136736,
+									"distance": 12.206555615733702,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZtQOhKvOykg="
+									},
+									"edgePosition": 1,
+									"text": "Εντοπισμένες Βλάβες"
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZob5yKnFT4U="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZpYS+Kqd78Y="
+							},
+							"points": "184:280;448:280",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZtQOhKvPo9U="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZyYIy60uMEk=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZyYIy60sKsg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZyYIy60vY/w=",
+									"_parent": {
+										"$ref": "AAAAAAFkZyYIy60uMEk="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZyYIy60sKsg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 527,
+									"top": 213,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZyYIy60uMEk="
+									},
+									"edgePosition": 1
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZob5yKnFT4U="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZqKo86ry9vQ="
+							},
+							"lineStyle": 2,
+							"points": "513:192;513:248",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZyYIy60vY/w="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZyaTn608rDE=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZyaTn606lVA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZyaTn609ewQ=",
+									"_parent": {
+										"$ref": "AAAAAAFkZyaTn608rDE="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZyaTn606lVA="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 223,
+									"top": 383,
+									"width": 88.8798828125,
+									"height": 13,
+									"alpha": -3.7783937031341237,
+									"distance": 48.83646178829912,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZyaTn608rDE="
+									},
+									"edgePosition": 1,
+									"text": "Στοιχεία Laptop"
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZob5yKnFT4U="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZpGYK6o55QU="
+							},
+							"lineStyle": 1,
+							"points": "184:463;447:335",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZyaTn609ewQ="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZymm961b5AU=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZymm961ZHp8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZymm961c4d4=",
+									"_parent": {
+										"$ref": "AAAAAAFkZymm961b5AU="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZymm961ZHp8="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 527,
+									"top": 400,
+									"width": 157.72021484375,
+									"height": 13,
+									"alpha": 1.5475444289093583,
+									"distance": 86.02325267042627,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZymm961b5AU="
+									},
+									"edgePosition": 1,
+									"text": "Κωδικός Εντολής Εργασίας"
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZolUU6n3JGA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZob5yKnFT4U="
+							},
+							"lineStyle": 2,
+							"points": "520:352;520:456",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZymm961c4d4="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZyrdu62T3YI=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZyrduq2Rwfs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZyrdu62Us+k=",
+									"_parent": {
+										"$ref": "AAAAAAFkZyrdu62T3YI="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZyrduq2Rwfs="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 656,
+									"top": 520,
+									"width": 165.34375,
+									"height": 13,
+									"alpha": 0.7853989967314758,
+									"distance": 8.48528137423857,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZyrdu62T3YI="
+									},
+									"edgePosition": 1,
+									"text": "Δεδομένα Εντολής Εργασίας"
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZolUU6n3JGA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZpNpQapRD8U="
+							},
+							"lineStyle": 2,
+							"points": "888:520;600:520",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZyrdu62Us+k="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZy/JmK28dsY=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZy/JmK26EjA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZy/JmK29j4E=",
+									"_parent": {
+										"$ref": "AAAAAAFkZy/JmK28dsY="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZy/JmK26EjA="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 233,
+									"top": 511,
+									"width": 157.72021484375,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZy/JmK28dsY="
+									},
+									"edgePosition": 1,
+									"text": "Κωδικός Εντολής Εργασίας"
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZpGYK6o55QU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZolUU6n3JGA="
+							},
+							"lineStyle": 2,
+							"points": "440:502;184:502",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZy/JmK29j4E="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAFkZzJiwK3Iv94=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZzJiv63GSiE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk8Dx27up+Cwc=",
+									"_parent": {
+										"$ref": "AAAAAAFkZzJiwK3Iv94="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 218,
+									"top": 621,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk7BWedhS5Qs8=",
+									"_parent": {
+										"$ref": "AAAAAAFkZzJiwK3Iv94="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 218,
+									"top": 621,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk6ut3GbyBuUk=",
+									"_parent": {
+										"$ref": "AAAAAAFkZzJiwK3Iv94="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 218,
+									"top": 621,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFk6r0M2/dPXXs=",
+									"_parent": {
+										"$ref": "AAAAAAFkZzJiwK3Iv94="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 218,
+									"top": 621,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZzJiwa3Omi4=",
+									"_parent": {
+										"$ref": "AAAAAAFkZzJiwK3Iv94="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 218,
+									"top": 621,
+									"width": 101,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZzJiwK3JVKs=",
+									"_parent": {
+										"$ref": "AAAAAAFkZzJiwK3Iv94="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 218,
+									"top": 626,
+									"width": 101,
+									"height": 13,
+									"text": "Λογιστής",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZzJiwK3KWZI=",
+									"_parent": {
+										"$ref": "AAAAAAFkZzJiwK3Iv94="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": -280,
+									"top": -192,
+									"height": 13
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"left": 208,
+							"top": 616,
+							"width": 121,
+							"height": 41,
+							"nameLabel": {
+								"$ref": "AAAAAAFkZzJiwK3JVKs="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAFkZzM1cq3b1vs=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZzM1cq3Zk3s="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZzM1cq3c8C0=",
+									"_parent": {
+										"$ref": "AAAAAAFkZzM1cq3b1vs="
+									},
+									"fillColor": "#a3ffa3",
+									"font": "Arial;13;0",
+									"left": 692,
+									"top": 626,
+									"width": 124.9189453125,
+									"height": 13,
+									"text": "Τιμοκατάλογος",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkZzM1cq3dXeA=",
+									"_parent": {
+										"$ref": "AAAAAAFkZzM1cq3b1vs="
+									},
+									"fillColor": "#a3ffa3",
+									"font": "Arial;13;0",
+									"left": 677,
+									"top": 626,
+									"height": 13
+								}
+							],
+							"fillColor": "#a3ffa3",
+							"font": "Arial;13;0",
+							"left": 672,
+							"top": 616,
+							"width": 154.9189453125,
+							"height": 41,
+							"nameLabel": {
+								"$ref": "AAAAAAFkZzM1cq3c8C0="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAFkZzM1cq3dXeA="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZzogM65Qa0E=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZzogM65OgQA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZzogM65Rrpc=",
+									"_parent": {
+										"$ref": "AAAAAAFkZzogM65Qa0E="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZzogM65OgQA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 648,
+									"top": 589,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZzogM65Qa0E="
+									},
+									"edgePosition": 1
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZolUU6n3JGA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZzM1cq3b1vs="
+							},
+							"lineStyle": 1,
+							"points": "712:615;601:551",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZzogM65Rrpc="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZzqBga5evOc=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZzqBga5cCzQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZzqBga5fQvQ=",
+									"_parent": {
+										"$ref": "AAAAAAFkZzqBga5evOc="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZzqBga5cCzQ="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 106,
+									"top": 566,
+									"width": 256.03271484375,
+									"height": 13,
+									"alpha": -3.6741535855297585,
+									"distance": 139.00359707575916,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZzqBga5evOc="
+									},
+									"edgePosition": 1,
+									"text": "Κωδικός Εντολής Ολοκληρωμένης Εργασίας"
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZolUU6n3JGA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZzJiwK3Iv94="
+							},
+							"lineStyle": 1,
+							"points": "308:615;439:546",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZzqBga5fQvQ="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkZz6S5K6QqHc=",
+							"_parent": {
+								"$ref": "AAAAAAFkZoYeVamza6Y="
+							},
+							"model": {
+								"$ref": "AAAAAAFkZz6S5K6Od3s="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkZz6S5K6RYd4=",
+									"_parent": {
+										"$ref": "AAAAAAFkZz6S5K6QqHc="
+									},
+									"model": {
+										"$ref": "AAAAAAFkZz6S5K6Od3s="
+									},
+									"fillColor": "#adadff",
+									"font": "Arial;13;0",
+									"left": 615,
+									"top": 456,
+									"width": 225.33544921875,
+									"height": 13,
+									"alpha": -4.755465696718469,
+									"distance": 232.2154172315008,
+									"hostEdge": {
+										"$ref": "AAAAAAFkZz6S5K6QqHc="
+									},
+									"edgePosition": 1,
+									"text": "Τιμολόγιο Υπηρεσιών & Ανταλλακτικών"
+								}
+							],
+							"fillColor": "#adadff",
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkZoZZ3am5nLE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkZolUU6n3JGA="
+							},
+							"points": "600:472;960:472;960:312",
+							"nameLabel": {
+								"$ref": "AAAAAAFkZz6S5K6RYd4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAFkZoZZ3Km3H/4=",
+					"_parent": {
+						"$ref": "AAAAAAFkZoYeVamybKc="
+					},
+					"name": "Πελάτης"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAFkZob5yKnDanc=",
+					"_parent": {
+						"$ref": "AAAAAAFkZoYeVamybKc="
+					},
+					"name": "Διαχείριση Έκδοσης Εντολής Εργασίας",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZpYouKqn0v8=",
+							"_parent": {
+								"$ref": "AAAAAAFkZob5yKnDanc="
+							},
+							"name": "Απόδειξη Εντολής Εργασίας",
+							"source": {
+								"$ref": "AAAAAAFkZob5yKnDanc="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZoZZ3Km3H/4="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZpa4UaqzDe4=",
+							"_parent": {
+								"$ref": "AAAAAAFkZob5yKnDanc="
+							},
+							"name": "Στοιχεία Εντολής Εργασίας",
+							"source": {
+								"$ref": "AAAAAAFkZob5yKnDanc="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZpNpQKpPAuo="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZqTLfash4TE=",
+							"_parent": {
+								"$ref": "AAAAAAFkZob5yKnDanc="
+							},
+							"name": "Στοιχεία Laptop",
+							"source": {
+								"$ref": "AAAAAAFkZob5yKnDanc="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZpYS+Kqbzbc="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZymm961ZHp8=",
+							"_parent": {
+								"$ref": "AAAAAAFkZob5yKnDanc="
+							},
+							"name": "Κωδικός Εντολής Εργασίας",
+							"source": {
+								"$ref": "AAAAAAFkZob5yKnDanc="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZolUU6n1xGY="
+							}
+						}
+					],
+					"id": "1."
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAFkZolUU6n1xGY=",
+					"_parent": {
+						"$ref": "AAAAAAFkZoYeVamybKc="
+					},
+					"name": "Διαχείριση Εκδομένων Εντολών",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZpTsd6qLJSE=",
+							"_parent": {
+								"$ref": "AAAAAAFkZolUU6n1xGY="
+							},
+							"name": "Ενημέρωση Εντολής Εργασίας",
+							"source": {
+								"$ref": "AAAAAAFkZolUU6n1xGY="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZpNpQKpPAuo="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZy/JmK26EjA=",
+							"_parent": {
+								"$ref": "AAAAAAFkZolUU6n1xGY="
+							},
+							"name": "Κωδικός Εντολής Εργασίας",
+							"source": {
+								"$ref": "AAAAAAFkZolUU6n1xGY="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZpGYKao3SNg="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZz6S5K6Od3s=",
+							"_parent": {
+								"$ref": "AAAAAAFkZolUU6n1xGY="
+							},
+							"name": "Τιμολόγιο Υπηρεσιών & Ανταλλακτικών",
+							"source": {
+								"$ref": "AAAAAAFkZolUU6n1xGY="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZoZZ3Km3H/4="
+							}
+						}
+					],
+					"id": "2."
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAFkZpGYKao3SNg=",
+					"_parent": {
+						"$ref": "AAAAAAFkZoYeVamybKc="
+					},
+					"name": "Τεχνικός",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZpHPJ6pEO5s=",
+							"_parent": {
+								"$ref": "AAAAAAFkZpGYKao3SNg="
+							},
+							"name": "Στοιχεία Εκτελεσθέντων Εργασίων",
+							"source": {
+								"$ref": "AAAAAAFkZpGYKao3SNg="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZolUU6n1xGY="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZyaTn606lVA=",
+							"_parent": {
+								"$ref": "AAAAAAFkZpGYKao3SNg="
+							},
+							"name": "Στοιχεία Laptop",
+							"source": {
+								"$ref": "AAAAAAFkZpGYKao3SNg="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZob5yKnDanc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAFkZpNpQKpPAuo=",
+					"_parent": {
+						"$ref": "AAAAAAFkZoYeVamybKc="
+					},
+					"name": "Αρχείο Εντολών Εργασιών",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZyrduq2Rwfs=",
+							"_parent": {
+								"$ref": "AAAAAAFkZpNpQKpPAuo="
+							},
+							"name": "Δεδομένα Εντολής Εργασίας",
+							"source": {
+								"$ref": "AAAAAAFkZpNpQKpPAuo="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZolUU6n1xGY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAFkZpYS+Kqbzbc=",
+					"_parent": {
+						"$ref": "AAAAAAFkZoYeVamybKc="
+					},
+					"name": "Εφαρμογή Diagnose",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZtQOhKvMJXU=",
+							"_parent": {
+								"$ref": "AAAAAAFkZpYS+Kqbzbc="
+							},
+							"name": "Εντοπισμένες Βλάβες",
+							"source": {
+								"$ref": "AAAAAAFkZpYS+Kqbzbc="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZob5yKnDanc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAFkZqKo86rwGz0=",
+					"_parent": {
+						"$ref": "AAAAAAFkZoYeVamybKc="
+					},
+					"name": "Αρχείο Εγγυήσεων",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZyYIy60sKsg=",
+							"_parent": {
+								"$ref": "AAAAAAFkZqKo86rwGz0="
+							},
+							"source": {
+								"$ref": "AAAAAAFkZqKo86rwGz0="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZob5yKnDanc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAFkZzJiv63GSiE=",
+					"_parent": {
+						"$ref": "AAAAAAFkZoYeVamybKc="
+					},
+					"name": "Λογιστής",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZzqBga5cCzQ=",
+							"_parent": {
+								"$ref": "AAAAAAFkZzJiv63GSiE="
+							},
+							"name": "Κωδικός Εντολής Ολοκληρωμένης Εργασίας",
+							"source": {
+								"$ref": "AAAAAAFkZzJiv63GSiE="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZolUU6n1xGY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAFkZzM1cq3Zk3s=",
+					"_parent": {
+						"$ref": "AAAAAAFkZoYeVamybKc="
+					},
+					"name": "Τιμοκατάλογος",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkZzogM65OgQA=",
+							"_parent": {
+								"$ref": "AAAAAAFkZzM1cq3Zk3s="
+							},
+							"source": {
+								"$ref": "AAAAAAFkZzM1cq3Zk3s="
+							},
+							"target": {
+								"$ref": "AAAAAAFkZolUU6n1xGY="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
