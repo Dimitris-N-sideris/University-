@@ -1,0 +1,197 @@
+Insert command
+success: created 1000001
+success: created 1000002
+success: created 1000003
+success: created 1000004
+success: created 1000005
+success: created 1000006
+success: created 1000007
+createnodes command finished inserted 7 nodes
+
+success: added transaction 1000001  -> 1000002  with amount 30.000
+success: added transaction 1000001  -> 1000003  with amount 70.000
+success: added transaction 1000003  -> 1000004  with amount 30.000
+Updating transaction 
+success: added transaction 1000003  -> 1000004  with amount 20.000
+success: added transaction 1000004  -> 1000002  with amount 10.000
+success: added transaction 1000003  -> 1000005  with amount 20.000
+success: added transaction 1000005  -> 1000004  with amount 10.000
+success: added transaction 1000006  -> 1000007  with amount 10.000
+success: added transaction 1000007  -> 1000006  with amount 20.000
+success: added transaction 1000002  -> 1000001  with amount 20.000
+No triangle triangle (1000005 ,10.000)= 0
+---------------------------------------
+success: IN(1000001 )=20.000
+success: OUT(1000001 )=100.000
+success: SUM(1000001 )=-80.000
+Conn between node 1000001 and node 1000004: 
+(1000001,1000003,1000004)
+Conn between node 1000001 and node 1000005: 
+(1000001,1000003,1000005)
+Conn between node 1000001 and node 1000006: 
+Conn(1000001 ,1000006) not found 
+success: added transaction 1000001  -> 1000006  with amount 50.000
+Conn between node 1000001 and node 1000006: 
+(1000001,1000006)
+allcycles on node 1000001: 
+No circles found involving 1000001
+allcycles on node 1000006: 
+No circles found involving 1000006
+allcycles on node 1000004: 
+(1000004,1000002,1000001,1000003)
+(1000004,1000002,1000001,1000003,1000005)
+success: IN(1000004 )=60.000
+success: OUT(1000004 )=10.000
+success: SUM(1000004 )=50.000
+Traceflow on node 1000003: 
+(1000003,1000004,1000002)= 60.000000
+(1000003,1000005,1000004)= 30.000000
+Traceflow on node 1000001: 
+(1000001,1000003,1000004)= 120.000000
+(1000001,1000003,1000005)= 90.000000
+(1000001,1000006,1000007)= 60.000000
+Traceflow on node 1000001: 
+(1000001,1000003,1000004,1000002)= 130.000000
+(1000001,1000003,1000005,1000004)= 100.000000
+Traceflow on node 1000001: 
+(1000001,1000003,1000005,1000004,1000002)= 110.000000
+Traceflow on node 1000006: 
+No path found involving 1000006 with size 2
+success: removed transaction 1000001  -> 1000003 
+success: removed transaction 1000006  -> 1000007 
+failure:Node 1000007 has transactions with other nodes
+failure:Invalid input try delnodes id1 ...
+delnodes command finished deleted 0 nodes
+
+success: removed transaction 1000007  -> 1000006 
+success: deleted 1000007
+delnodes command finished deleted 1 nodes
+
+success: created 1000008
+success: created 1000009
+success: created 1000010
+createnodes command finished inserted 3 nodes
+
+success: added transaction 1000008  -> 1000009  with amount 10.000
+success: added transaction 1000009  -> 1000008  with amount 20.000
+success: added transaction 1000009  -> 1000010  with amount 30.000
+success: added transaction 1000010  -> 1000009  with amount 40.000
+success: added transaction 1000010  -> 1000008  with amount 70.000
+success: added transaction 1000008  -> 1000010  with amount 30.000
+Success triangle (1000008 ,10.000000)=
+(1000008 ,1000009 ,1000010 )
+(1000008 ,1000010 ,1000009 )
+---------------------------------------
+No triangle triangle (1000008 ,40.000)= 0
+---------------------------------------
+Traceflow on node 1000009: 
+(1000009,1000008)= 20.000000
+(1000009,1000010)= 30.000000
+Traceflow on node 1000009: 
+(1000009,1000008,1000010)= 50.000000
+(1000009,1000010,1000008)= 100.000000
+Traceflow on node 1000009: 
+No path found involving 1000009 with size 3
+failure: Sender with id 1000007 doesn't exist in hash...aborting
+failure:Node with id 1000007  doesn't exist in hash...aborting allcycle
+success: created 1000011
+success: created 1000012
+createnodes command finished inserted 2 nodes
+
+success: added transaction 1000011  -> 1000010  with amount 10.000
+success: added transaction 1000012  -> 1000011  with amount 20.000
+success: added transaction 1000005  -> 1000012  with amount 50.000
+Conn between node 1000003 and node 1000009: 
+(1000003,1000005,1000012,1000011,1000010,1000009)
+Conn between node 1000003 and node 1000001: 
+(1000003,1000004,1000002,1000001)
+Conn between node 1000002 and node 1000010: 
+Conn(1000002 ,1000010) not found 
+No triangle triangle (1000004 ,20.000)= 0
+---------------------------------------
+success: added transaction 1000001  -> 1000003  with amount 30.000
+success: added transaction 1000005  -> 1000001  with amount 50.000
+success: created 1000013
+success: created 1000014
+createnodes command finished inserted 2 nodes
+
+success: added transaction 1000013  -> 1000014  with amount 10.000
+success: added transaction 1000013  -> 1000005  with amount 20.000
+success: added transaction 1000014  -> 1000012  with amount 60.000
+success: added transaction 1000013  -> 1000012  with amount 30.000
+success: added transaction 1000014  -> 1000003  with amount 30.000
+success: added transaction 1000005  -> 1000014  with amount 10.000
+Traceflow on node 1000001: 
+(1000001,1000003,1000004,1000002)= 90.000000
+(1000001,1000003,1000005,1000004)= 60.000000
+(1000001,1000003,1000005,1000012)= 100.000000
+(1000001,1000003,1000005,1000014)= 60.000000
+Traceflow on node 1000001: 
+(1000001,1000003,1000005,1000004,1000002)= 70.000000
+(1000001,1000003,1000005,1000012,1000011)= 120.000000
+(1000001,1000003,1000005,1000014,1000012)= 120.000000
+Success triangle (1000014 ,10.000000)=
+(1000014 ,1000003 ,1000005 )
+---------------------------------------
+Success triangle (1000014 ,5.000000)=
+(1000014 ,1000003 ,1000005 )
+---------------------------------------
+allcycles on node 1000014: 
+(1000014,1000003,1000005)
+allcycles on node 1000003: 
+(1000003,1000004,1000002,1000001)
+(1000003,1000005,1000014)
+success: added transaction 1000004  -> 1000012  with amount 10.000
+success: added transaction 1000012  -> 1000004  with amount 20.000
+success: created 1000015
+success: created 1000016
+createnodes command finished inserted 2 nodes
+
+success: added transaction 1000008  -> 1000015  with amount 5.000
+success: added transaction 1000015  -> 1000016  with amount 10.000
+success: added transaction 1000016  -> 1000009  with amount 20.000
+success: added transaction 1000016  -> 1000008  with amount 20.000
+Updating transaction 
+success: added transaction 1000016  -> 1000009  with amount 30.000
+success: added transaction 1000015  -> 1000006  with amount 40.000
+success: added transaction 1000006  -> 1000008  with amount 10.000
+success: added transaction 1000008  -> 1000006  with amount 10.000
+allcycles on node 1000006: 
+(1000006,1000008,1000015)
+Conn between node 1000006 and node 1000010: 
+(1000006,1000008,1000009,1000010)
+Conn between node 1000013 and node 1000006: 
+(1000013,1000014,1000012,1000011,1000010,1000009,1000008,1000015,1000006)
+Conn between node 1000003 and node 1000016: 
+(1000003,1000004,1000002,1000001,1000006,1000008,1000015,1000016)
+Conn between node 1000001 and node 1000010: 
+(1000001,1000006,1000008,1000009,1000010)
+success: added transaction 1000009  -> 1000012  with amount 10.000
+success: added transaction 1000012  -> 1000014  with amount 40.000
+allcycles on node 1000009: 
+(1000009,1000008,1000010)
+(1000009,1000008,1000015,1000016)
+success: created 1000017
+createnodes command finished inserted 1 nodes
+
+success: added transaction 1000012  -> 1000017  with amount 10.000
+success: added transaction 1000017  -> 1000014  with amount 20.000
+success: added transaction 1000017  -> 1000011  with amount 10.000
+allcycles on node 1000017: 
+(1000017,1000014,1000012)
+success: added transaction 1000009  -> 1000017  with amount 20.000
+allcycles on node 1000017: 
+(1000017,1000014,1000012,1000011,1000010,1000009)
+(1000017,1000014,1000012)
+Success triangle (1000017 ,10.000000)=
+(1000017 ,1000014 ,1000012 )
+---------------------------------------
+success: added transaction 1000011  -> 1000012  with amount 5.000
+Success triangle (1000017 ,5.000000)=
+(1000017 ,1000014 ,1000012 )
+(1000017 ,1000011 ,1000012 )
+---------------------------------------
+success: IN(1000002 )=40.000
+success: OUT(1000002 )=20.000
+success: SUM(1000002 )=20.000
+success: IN(1000009 )=100.
